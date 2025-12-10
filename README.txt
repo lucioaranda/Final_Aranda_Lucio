@@ -4,28 +4,27 @@ Examen Final
 
 Esta aplicación web muestra:
 
-Nombre, DNI y un mensaje
-
+- Nombre
+- DNI
+- Un mensaje
 
 ---
 
 ## Ejecutar localmente
 
- Abrir el archivo `index.html` en un navegador web.
+Abrir el archivo `index.html` en un navegador web.
 
 ---
 
 ## Ejecutar con Docker
 
- Construir la imagen:
+1. Construir la imagen:
 
 ```powershell
 docker build -t final-aranda-lucio .
 
-Ejecutar el contenedor
-
+2. Correr contenedor
 docker run -d -p 8080:80 final-aranda-lucio
 
-Abrir en el navegador:
-
+3.Abrir en navegador
 http://localhost:8080
